@@ -39,6 +39,21 @@ Three creative insights visualized:
 - Commit `.dvc` files and push datasets to local remote
 - Ensure data integrity and reproducibility
 
+### 4. Hypothesis Testing
+- Performed statistical tests (e.g., `t-tests`, `chi-square`) to verify assumptions:
+  - Whether mean `TotalPremium` differs between customers **with and without claims**
+  - Whether `VehicleType` or `Province` is significantly associated with claim probability
+- Supported decision-making for **feature selection** and **risk segmentation**
+
+### 5. Model Building
+#### Regression Models (for `TotalClaims`)
+- Trained **Linear Regression**, **Random Forest** and **XGBoost** regressors
+- Evaluated using **RMSE** and **R²** metrics
+
+#### Classification Models (for `HasClaim`)
+- Trained **Logistic Regression**, **Random Forest**, and **XGBoost** classifiers
+- Evaluated using **Accuracy**, **Precision**, **Recall**, and **F1-score**
+
 ---
 ## Setup Instructions
 
